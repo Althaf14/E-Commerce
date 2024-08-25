@@ -1,0 +1,697 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+
+  margin: 0px;
+  font-family: roboto;
+  background-color: #dfe7e9;
+
+}
+
+/* *{ 
+  outline:  solid red 1px;
+} */
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 100px;
+  background-color: #80BCBD;
+
+}
+
+.menudiv {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo::first-letter{
+  font-size: 1.5em;
+  font-style: italic;
+}
+
+.logo {
+  width: 100%;
+  position: relative;
+  padding-left: 70px;
+  bottom: 15px;
+  color: #000;
+  font-size: 1.5em;
+}
+
+.first-parent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.firstcards {
+  width: 40%;
+  display: grid;
+  column-gap: 90px;
+  row-gap: 30px;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+
+h3 {
+  text-align: center;
+  align-items: center;
+  font-weight: 900;
+}
+
+img {
+  width: 100%;
+  border-radius: 9px
+}
+
+.malebx {
+  width: 100%;
+  height: 100%;
+}
+
+.femalebx {
+  width: 100%;
+  height: 100%;
+}
+
+.boysbx {
+  width: 100%;
+  height: 100%;
+}
+
+.girlsbx {
+  width: 100%;
+  height: 100%;
+}
+
+.girlimg1{
+  height: 270px;
+}
+
+.card {
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+  border-radius: 9px;
+
+}
+
+
+.botmbrdr {
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+
+.cardtxt {
+  text-align: center;
+  font-size: 18px;
+  font-weight: 600;
+
+}
+
+.banner {
+  border-radius: 0px;
+  height: fit-content;
+}
+
+.menu {
+
+  width: 40px;
+  border-radius: 0px;
+  height: 40px;
+  position: relative;
+  left: 220px;
+}
+
+.secondcards {
+  width: 100%;
+
+}
+
+.mendis {
+  margin-top: 40px;
+  border-radius: 0px;
+  height: 280px;
+}
+
+.scndprnt {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.heading {
+  text-decoration: underline;
+}
+
+.secondcards {
+  margin-top: 20px;
+  width: 70%;
+  display: grid;
+  column-gap: 20px;
+  row-gap: 20px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr ;
+}
+
+.men_cards {
+  position: relative;
+  left: 15%;
+  width: 80%;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  border-radius: 9px;
+  /* height: 370px; */
+}
+
+.cardtxt2 {
+  text-align: center;
+  font-weight: 600;
+  font-size: large;
+
+}
+
+.price {
+  text-align: left;
+  font-weight: 700;
+}
+
+.oldprice {
+  font-weight: 100;
+  text-decoration: line-through;
+}
+
+.thirdprnt {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+button {
+  
+  width: 100px;
+  margin-top: 40px;
+  background-color: #80BCBD;
+  border: 0px;
+  border-radius: 4px;
+}
+
+.btn{
+  font-size: medium;
+  width: 110px;
+  height: 40px;
+}
+.btn:hover{
+  background-color: #339b94;
+  cursor: pointer;
+}
+
+.btn:active {
+  background-color: #85b8b5;
+}
+
+.thirdcards {
+  margin-top: 20px;
+  width: 70%;
+  display: grid;
+  column-gap: 20px;
+  row-gap: 20px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr ;
+}
+
+
+.women_cards {
+  position: relative;
+  left: 15%;
+  width: 80%;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  border-radius: 9px;
+  height: 320px;
+}
+
+.fourthprnt {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.fourthcards {
+  margin-top: 20px;
+  width: 70%;
+  display: grid;
+  column-gap: 20px;
+  row-gap: 20px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr ;
+}
+
+.boys_cards {
+  position: relative;
+  left: 15%;
+  width: 80%;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  border-radius: 9px;
+  /* height: 320px; */
+}
+
+
+.fifthprnt {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.fifthcards {
+  margin-top: 20px;
+  width: 70%;
+  display: grid;
+  column-gap: 20px;
+  row-gap: 20px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr ;
+}
+
+.girls_cards {
+  position: relative;
+  left: 15%;
+  width: 80%;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  border-radius: 9px;
+  /* height: 350px; */
+}
+
+.footerprnt{
+  margin-top: 60px;
+  height: 30vh;
+  background-color: #80BCBD;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer{
+  margin-top: 25px;
+  height: 20vh;
+  width: 60vw;
+  background-color: black;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  
+}
+
+.footer-logo{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logoftr{
+  color: white;
+  padding-top: 25px;
+  
+}
+.logoftr2{
+    margin-left:10px;
+    color: white;
+    margin-top: 100%;
+
+}
+
+.footer-txt{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ftr-txt{
+  color: white;
+  font-size: 20px;
+  
+}
+span{
+  margin-left: 2px;
+}
+
+.phone-img{
+  display: none;
+}
+
+@media screen and (max-width:767px) {
+  a {
+  text-decoration: none;
+  color: #000;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  width: 100vw;
+  height: 60px;
+  background-color: #80BCBD;
+
+}
+
+.menudiv {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+
+}
+
+.logo::first-letter{
+  font-size: 1.5em;
+}
+
+.logo {
+  width: 100%;
+  font-style: italic;
+  padding-top: 2px;
+  padding-left: 18px;
+  color: #000;
+  font-size: 1em;
+}
+
+.first-parent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.firstcards {
+  width: 80vw;
+  display: grid;
+  column-gap: 10px;
+  row-gap: 10px;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+
+h3 {
+  text-align: center;
+  align-items: center;
+  font-weight: 900;
+}
+
+img {
+  width: 100%;
+  border-radius: 9px
+}
+
+.malebx {
+  width: 100%;
+  height: 100%;
+}
+
+.femalebx {
+  width: 100%;
+  height: 100%;
+}
+
+.boysbx {
+  width: 100%;
+  height: 100%;
+}
+
+.girlsbx {
+  width: 100%;
+  height: 100%;
+}
+
+.card {
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+  border-radius: 9px;
+
+}
+
+.girlimg1 {
+  height: 192px;
+}
+
+.botmbrdr {
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+
+.cardtxt {
+  text-align: center;
+  font-size: 18px;
+  font-weight: 600;
+
+}
+
+.banner {
+  border-radius: 0px;
+  height: 140px;
+}
+
+.menu {
+  margin-left: 130px;
+  width: 20px;
+  border-radius: 0px;
+  height: 20px;
+  position: relative;
+  left: 10px;
+}
+
+
+.secondcards {
+  width: 100%;
+
+}
+
+.mendis {
+  margin-top: 15px;
+  border-radius: 0px;
+  height: fit-content;
+}
+
+.scndprnt {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.heading {
+  text-decoration: underline;
+}
+
+.secondcards {
+  margin-top: 20px;
+  width: 80vw;
+  display: grid;
+  column-gap: 20px;
+  row-gap: 20px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+
+.men_cards {
+  width: 100%;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  border-radius: 9px;
+ 
+}
+
+.cardtxt2 {
+  text-align: center;
+  font-weight: 600;
+
+}
+
+.price {
+  text-align: left;
+  font-weight: 400;
+}
+
+.oldprice {
+  font-weight: 300;
+  text-decoration: line-through;
+}
+
+.thirdprnt {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+button {
+  height: 30px;
+  margin-top: 20px;
+  background-color: #80BCBD;
+  border: 0px;
+  border-radius: 4px;
+}
+
+.btn{
+  width: 80px;
+}
+
+.btn:hover{
+  background-color: #C2D5D4;
+}
+
+.btn:active{
+  background-color: #C2D5D4;
+}
+
+.thirdcards {
+  margin-top: 20px;
+  width: 80vw;
+  display: grid;
+  column-gap: 20px;
+  row-gap: 20px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+
+.women_cards {
+  width: 100%;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  border-radius: 9px;
+  height: fit-content;
+}
+
+.fourthprnt {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.fourthcards {
+  margin-top: 20px;
+  width: 80vw;
+  display: grid;
+  column-gap: 20px;
+  row-gap: 20px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+
+.boys_cards {
+  width: 100%;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  border-radius: 9px;
+}
+
+.fifthprnt {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.fifthcards {
+  margin-top: 20px;
+  width: 80vw;
+  display: grid;
+  column-gap: 20px;
+  row-gap: 20px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+
+.girls_cards {
+  width: 100%;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  border-radius: 9px;
+}
+
+.footerprnt{
+  margin-top: 20px;
+  height: 15vh;
+  background-color: #80BCBD;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer{
+  margin-top: 5px;
+  height: 10vh;
+  width: 80vw;
+  background-color: black;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  
+}
+
+.footer-logo{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logoftr{
+  color: white;
+  padding-top: 25px;
+  
+}
+.logoftr2{
+    margin-left:10px;
+    color: white;
+    margin-top: 100%;
+
+}
+
+.footer-txt{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ftr-txt{
+  color: white;
+  font-size: 9px;
+  
+}
+span{
+  margin-left: 2px;
+}
+
+.phone-img{
+  display: block;
+}
+
+}
+
+/* Add this to your style.css */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.card {
+  opacity: 0;
+  animation: fadeInUp 0.5s ease forwards;
+  /* Set animation duration and easing */
+  animation-delay: var(--delay, 0s);
+  /* Default delay if not set */
+}
+
